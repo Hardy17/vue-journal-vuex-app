@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el entry componet Debe Hacer el Match con el snapshot 1`] = `
+<div class="entry-container mb-3 pointer p-2">
+  <!--Titulo -->
+  <div class="entry-title d-flex"><span class="text-success fs-5 fw-bold">22</span><span class="mx-1 fs-5">Febrero</span><span class="mx-2 fw-light">2022, Martes</span></div>
+  <div class="entry-description">Hola el proximo paso es aprende Nuxt para vue y serve side redering</div>
+</div>
+`;

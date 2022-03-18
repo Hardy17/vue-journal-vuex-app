@@ -62,6 +62,7 @@ import Swal from 'sweetalert2'
 import getDayMonthYear from '../helpers/getDayMonthYear';
 import uploadImage from '../helpers/uploadImage'
 export default {
+    name:'EntryView',
     props:{
         id:{
             type:String,
@@ -140,7 +141,7 @@ export default {
                 confirmButtonText:'Si, estoy seguro'
             })
             if(isConfirmed){
-                new Swal({
+                Swal.fire({
                     title:'Espere por favor...',
                     allowOutsideClick:false
                 })
